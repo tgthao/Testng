@@ -3,6 +3,7 @@ package TestGuru99MultipleSession;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class TestGuru99MultipleSession {
@@ -20,7 +21,7 @@ public class TestGuru99MultipleSession {
      public void executeSessionTwo(){
          //Second session of WebDriver
      System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-     WebDriver driver = new ChromeDriver();
+     WebDriver driver = new FirefoxDriver();
          //Goto guru99 site
      driver.get("http://demo.guru99.com/V4/");
      //find user name text box and fill it
