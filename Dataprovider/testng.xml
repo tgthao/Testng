@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3">
+<parameter name="searchKey" value="India" />
+<test name="testGuru">
+<parameter name="searchKey" value ="UK"/>
+<parameter name="searchKey" value ="UKê"/>
+  <classes>
+<class name="Dataprovider.ParameterWithTestNGXML">
+</class>
+</classes>
+
+</test> <!-- Test -->
+</suite> <!-- TestSuite -->
