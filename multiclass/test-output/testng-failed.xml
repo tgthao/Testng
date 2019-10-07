@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test name="flipkart">
+    <classes>
+      <class name="com.suite1.Flipkart"/>
+    </classes>
+  </test> <!-- flipkart -->
+  <test name="Myntra">
+    <classes>
+      <class name="com.suite2.SnapDeal"/>
+    </classes>
+  </test> <!-- Myntra -->
+</suite> <!-- Failed suite [Gmail Suite] -->
