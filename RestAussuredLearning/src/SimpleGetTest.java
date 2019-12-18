@@ -1,3 +1,4 @@
+import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -104,7 +105,6 @@ public class SimpleGetTest {
 				true /* Actual Value */, "Response body contains Hyderabad");
 	}
 
-	
 	public void VerifyCityInJsonResponse() {
 		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
 		RequestSpecification httpRequest = RestAssured.given();
@@ -125,7 +125,7 @@ public class SimpleGetTest {
 
 	}
 
-	@Test
+	
 	public void DisplayAllNodesInWeatherAPI() {
 		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
 		RequestSpecification httpRequest = RestAssured.given();
@@ -151,5 +151,42 @@ public class SimpleGetTest {
 
 		// Print Wind Direction Degree
 		System.out.println("City received from Response: " + jsonPathEvaluator.get("WindDirectionDegree"));
+	}
+
+	
+	public void queryParameter() {
+
+		RestAssured.baseURI = "https://samples.openweathermap.org/data/2.5/";
+		RequestSpecification request = RestAssured.given();
+
+		Response response = request.queryParam("q", "London,UK").queryParam("appid", "2b1fd2d7f77ccf1b7de9b441571b39b8")
+				.get("/weather");
+
+		String jsonString = response.asString();
+		System.out.println(jsonString);
+		System.out.println(response.getStatusCode());
+		Assert.assertEquals(jsonString.contains("London"), true);
+
+	}
+	@Test
+	public void RegistrationSuccessful()
+	{ 
+	 RestAssured.baseURI ="http://restapi.demoqa.com/customer";
+	 RequestSpecification request = RestAssured.given();
+	 
+	 JSONObject requestParams = new JSONObject();
+	 requestParams.put("FirstName", "Virender"); // Cast
+	 requestParams.put("LastName", "Singh");
+	 requestParams.put("UserName", "sdimpleuser2dd2011");
+	 requestParams.put("Password", "password1"); 
+	 requestParams.put("Email",  "sample2ee26d9@gmail.com");
+	 
+	 request.body(requestParams.toJSONString());
+	 Response response = request.get("/register");
+	 
+	 int statusCode = response.getStatusCode();
+	 System.out.println("The status code recieved: " + statusCode);
+	 
+	 System.out.println("Response body: " + response.body().asString());
 	}
 }

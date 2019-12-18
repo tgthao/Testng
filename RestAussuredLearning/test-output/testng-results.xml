@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1747" started-at="2019-12-11T13:54:40 ICT" finished-at="2019-12-11T13:54:41 ICT">
+  <suite name="Default suite" duration-ms="1799" started-at="2019-12-13T13:37:13 ICT" finished-at="2019-12-13T13:37:15 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1747" started-at="2019-12-11T13:54:40 ICT" finished-at="2019-12-11T13:54:41 ICT">
+    <test name="Default test" duration-ms="1799" started-at="2019-12-13T13:37:13 ICT" finished-at="2019-12-13T13:37:15 ICT">
       <class name="SimpleGetTest">
-        <test-method status="PASS" signature="DisplayAllNodesInWeatherAPI()[pri:0, instance:SimpleGetTest@185d8b6]" name="DisplayAllNodesInWeatherAPI" duration-ms="1720" started-at="2019-12-11T13:54:40 ICT" finished-at="2019-12-11T13:54:41 ICT">
+        <test-method status="PASS" signature="RegistrationSuccessful()[pri:0, instance:SimpleGetTest@eec5a4a]" name="RegistrationSuccessful" duration-ms="1774" started-at="2019-12-13T13:37:13 ICT" finished-at="2019-12-13T13:37:15 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DisplayAllNodesInWeatherAPI -->
+        </test-method> <!-- RegistrationSuccessful -->
       </class> <!-- SimpleGetTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
