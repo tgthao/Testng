@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce" parallel="false">
+  <test name="Run on FireFox Browser">
+    <classes>
+      <class name="com.nopcommerce.payment.Level_03_PageObject_Patten"/>
+      <class name="com.nopcommerce.payment.Level_04_PageObject_Factory"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

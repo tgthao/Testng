@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce" parallel="tests" thread-count ="4">
+  
+  <test name="Run on Chrome Browser">
+  <parameter name = "browser" value ="firefox"></parameter>
+    <classes>
+      <class name="com.nopcommerce.payment.Level_09_DynamicLocator_Rest_Parameter"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
+

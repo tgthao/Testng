@@ -1,10 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.nopcommerce.e2e</groupId>
-  <artifactId>com.nopcommerce.e2e</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>MVN_NOPCOMMERCE_12</name>
-  <!-- Khai báo biến -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.nopcommerce.e2e</groupId>
+	<artifactId>com.nopcommerce.e2e</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>MVN_NOPCOMMERCE_12</name>
+	<!-- Khai báo biến -->
 	<properties>
 		<webdriver.version>3.141.59</webdriver.version>
 		<testng.version>6.8</testng.version>
@@ -67,7 +69,11 @@
 			<artifactId>joda-time</artifactId>
 			<version>2.0</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.1.1</version>
+		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
@@ -112,6 +118,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.2</version>
 				<configuration>
+				<testFailureIgnore>true</testFailureIgnore>
 					<!-- Disabling default listeners is optional -->
 					<property>
 						<name>usedefaultlisteners</name>
@@ -120,7 +127,7 @@
 
 					<!-- Run TestNG xml file -->
 					<suiteXmlFiles>
-						<file>src/test/resources/runBankGuruTestcases.xml</file>
+						<file>src/test/resources/topic13_runcommercewithDynamicPageElement.xml</file>
 					</suiteXmlFiles>
 
 				</configuration>

@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>TestNG:  Run on Chrome Firefox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Run on Chrome Firefox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 05 13:36:43 ICT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>44 seconds (44078 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.payment.Level_13_DynamicPageElement.TC_01_Validate()'><b>TC_01_Validate</b><br>Test class: com.nopcommerce.payment.Level_13_DynamicPageElement<br/>
+<a href="#Output-2139286794" onClick='toggleBox("Output-2139286794", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2139286794" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2139286794">
+2020-02-05 13:36:55,382 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Validate- Step 01: - Click to Register Link
+<br/>
+2020-02-05 13:36:56,036 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Validate- Step 02: - Click to Register Button
+<br/>
+2020-02-05 13:37:06,131 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Validate- Step 03: - Verify Error Message Displayed
+<br/>
+2020-02-05 13:37:06,189 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Actual= First name is required.
+<br/>
+2020-02-05 13:37:06,190 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Expected= First name is required.
+<br/>
+2020-02-05 13:37:06,190 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - -----------------------PASSED-------------------
+<br/>
+2020-02-05 13:37:06,233 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Actual= Last name is required.
+<br/>
+2020-02-05 13:37:06,233 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Expected= Last name is required.
+<br/>
+2020-02-05 13:37:06,233 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - -----------------------PASSED-------------------
+<br/>
+2020-02-05 13:37:06,278 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Actual= Email is required.
+<br/>
+2020-02-05 13:37:06,278 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Expected= Email is required.
+<br/>
+2020-02-05 13:37:06,278 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - -----------------------PASSED-------------------
+<br/>
+2020-02-05 13:37:06,317 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Actual= Password is required.
+<br/>
+2020-02-05 13:37:06,317 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Expected= Password is required.
+<br/>
+2020-02-05 13:37:06,317 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - -----------------------PASSED-------------------
+<br/>
+2020-02-05 13:37:06,359 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Actual= Password is required.
+<br/>
+2020-02-05 13:37:06,359 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Expected= Password is required.
+<br/>
+2020-02-05 13:37:06,359 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - -----------------------PASSED-------------------
+<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.nopcommerce.payment.Level_13_DynamicPageElement@7113b13f</td></tr>
+<tr>
+<td title='com.nopcommerce.payment.Level_13_DynamicPageElement.TC_02_Register()'><b>TC_02_Register</b><br>Test class: com.nopcommerce.payment.Level_13_DynamicPageElement<br/>
+<a href="#Output-368927185" onClick='toggleBox("Output-368927185", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-368927185" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-368927185">
+2020-02-05 13:37:06,361 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - TC_01_Register-Homepage - Click to Register Link
+<br/>
+2020-02-05 13:37:06,361 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Precondition - Step 01: Click to Register Link
+<br/>
+2020-02-05 13:37:07,777 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Precondition - Step 02: Verify Register is displayed
+<br/>
+2020-02-05 13:37:07,829 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - ------Passed-----
+<br/>
+2020-02-05 13:37:07,830 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Precondition - Step 03: Input all data required fields
+<br/>
+2020-02-05 13:37:08,831 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Register Page - Click to Gender radio button
+<br/>
+2020-02-05 13:37:08,896 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Register Page - Input to Firstname textbox
+<br/>
+2020-02-05 13:37:09,005 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Register Page - Input to Lastname textbox
+<br/>
+2020-02-05 13:37:10,450 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Precondition - Step 04: Verify success message correct
+<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.nopcommerce.payment.Level_13_DynamicPageElement@7113b13f</td></tr>
+<tr>
+<td title='com.nopcommerce.payment.Level_13_DynamicPageElement.TC_03_Login()'><b>TC_03_Login</b><br>Test class: com.nopcommerce.payment.Level_13_DynamicPageElement<br/>
+<a href="#Output-1891506579" onClick='toggleBox("Output-1891506579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1891506579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1891506579">
+2020-02-05 13:37:18,117 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Home Page - Click to Login Link
+<br/>
+2020-02-05 13:37:18,600 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Login Page - Verify Login Page is displayed
+<br/>
+2020-02-05 13:37:18,647 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - ------Passed-----
+<br/>
+2020-02-05 13:37:18,647 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Login Page - Input to Email textbox
+<br/>
+2020-02-05 13:37:22,686 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - ------Passed-----
+<br/>
+2020-02-05 13:37:22,735 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - ------Passed-----
+<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.nopcommerce.payment.Level_13_DynamicPageElement@7113b13f</td></tr>
+</table><p>
+</body>
+</html>

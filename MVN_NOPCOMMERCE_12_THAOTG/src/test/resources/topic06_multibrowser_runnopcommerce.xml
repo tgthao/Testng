@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce" parallel="tests" thread-count ="4">
+  <test name="Run on FireFox Browser">
+  <parameter name = "browser" value ="firefox"></parameter>
+    <classes>
+      <class name="com.nopcommerce.payment.Level_06_MultiBrowser_Parallell_Page_Factory_Patten_01"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Run on Chrome Browser">
+  <parameter name = "browser" value ="chrome"></parameter>
+    <classes>
+      <class name="com.nopcommerce.payment.Level_06_MultiBrowser_Parallell_Page_Factory_Patten_01"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Run on FireFox Headless">
+  <parameter name = "browser" value ="firefox_headless"></parameter>
+    <classes>
+      <class name="com.nopcommerce.payment.Level_06_MultiBrowser_Parallell_Page_Factory_Patten_01"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Run on Chrome Headless">
+   <parameter name = "browser" value ="chrome_headless"></parameter>
+    <classes>
+      <class name="com.nopcommerce.payment.Level_06_MultiBrowser_Parallell_Page_Factory_Patten_01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce" parallel="tests" thread-count="4">
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		
+		<listener class-name="reportConfig.ExtentReportListener4" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Run on Firefox Browser">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.nopcommerce.payment.Level_11_Assert_Verify" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Run on Chrome Browser">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.nopcommerce.payment.Level_11_Assert_Verify" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

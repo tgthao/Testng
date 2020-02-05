@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Chrome Firefox"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="31.100">
+  <properties />
+  
+  
+            <testcase name="TC_01_Validate" time="10.981" classname="com.nopcommerce.payment.Level_13_DynamicPageElement" />
+                <testcase name="TC_02_Register" time="11.754" classname="com.nopcommerce.payment.Level_13_DynamicPageElement" />
+                <testcase name="TC_03_Login" time="8.365" classname="com.nopcommerce.payment.Level_13_DynamicPageElement" />
+      
+</testsuite>

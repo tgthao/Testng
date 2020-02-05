@@ -1,0 +1,32 @@
+2020-02-05 14:36:01,045 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Driver at Abstract Test = ChromeDriver: chrome on WINDOWS (1e08043357cd3178c0f53a65265fc9db)
+2020-02-05 14:36:06,988 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Validate- Step 01: - Click to Register Link
+2020-02-05 14:36:08,536 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Validate- Step 02: - Click to Register Button
+2020-02-05 14:36:18,640 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Validate- Step 03: - Verify Error Message Displayed
+2020-02-05 14:36:18,687 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Actual= First name is required.
+2020-02-05 14:36:18,687 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Expected= First name is required.
+2020-02-05 14:36:18,687 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - -----------------------PASSED-------------------
+2020-02-05 14:36:18,732 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Actual= Last name is required.
+2020-02-05 14:36:18,732 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Expected= Last name is required.
+2020-02-05 14:36:18,732 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - -----------------------PASSED-------------------
+2020-02-05 14:36:18,777 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Actual= Email is required.
+2020-02-05 14:36:18,777 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Expected= Email is required.
+2020-02-05 14:36:18,777 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - -----------------------PASSED-------------------
+2020-02-05 14:36:18,822 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Actual= Password is required.
+2020-02-05 14:36:18,822 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Expected= Password is required.
+2020-02-05 14:36:18,822 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - -----------------------PASSED-------------------
+2020-02-05 14:36:18,866 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Actual= Password is required.
+2020-02-05 14:36:18,866 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Expected= Password is required.
+2020-02-05 14:36:18,866 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - -----------------------PASSED-------------------
+2020-02-05 14:36:18,867 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - TC_01_Register-Homepage - Click to Register Link
+2020-02-05 14:36:18,867 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Precondition - Step 01: Click to Register Link
+2020-02-05 14:36:20,265 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Precondition - Step 02: Verify Register is displayed
+2020-02-05 14:36:20,309 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - ------Passed-----
+2020-02-05 14:36:20,309 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Precondition - Step 03: Input all data required fields
+2020-02-05 14:36:21,310 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Register Page - Click to Gender radio button
+2020-02-05 14:36:21,378 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Register Page - Input to Firstname textbox
+2020-02-05 14:36:21,484 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Register Page - Input to Lastname textbox
+2020-02-05 14:36:24,443 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Precondition - Step 04: Verify success message correct
+2020-02-05 14:36:32,251 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Home Page - Click to Login Link
+2020-02-05 14:36:32,334 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - Login Page - Verify Login Page is displayed
+2020-02-05 14:37:02,382 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - OS name = windows 10
+2020-02-05 14:37:03,117 INFO  com.nopcommerce.payment.Level_13_DynamicPageElement - ---------- QUIT BROWSER SUCCESS ----------

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce" parallel="tests" thread-count="4">
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+
+		<listener class-name="reportConfig.ExtentReportListener4" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<parameter name="firstnameError" value="First name is required."></parameter>
+	<parameter name="lastnameError" value="Last name is required."></parameter>
+	<parameter name="emailError" value="Email is required."></parameter>
+	<parameter name="passwordError" value="Password is required."></parameter>
+	<test name="Run on Chrome Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="url" value="https://demo.nopcommerce.com/"></parameter>
+		<classes>
+
+			<class
+				name="com.nopcommerce.payment.Level_14_Data_Test_02_TestngXML" />
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

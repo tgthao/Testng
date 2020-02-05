@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25" started-at="2020-02-05T06:35:58Z" finished-at="2020-02-05T06:35:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25" started-at="2020-02-05T06:35:58Z" finished-at="2020-02-05T06:35:58Z">
+      <class name="com.nopcommerce.payment.Level_13_DynamicPageElement">
+        <test-method status="FAIL" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.payment.Level_13_DynamicPageElement@4f970963]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-02-05T13:35:58Z" finished-at="2020-02-05T13:35:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method beforeClass but has not been marked @Optional or defined
+in C:\Users\THAOTRUONG-MAR\AppData\Local\Temp\testng-eclipse-1688884489\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method beforeClass but has not been marked @Optional or defined
+in C:\Users\THAOTRUONG-MAR\AppData\Local\Temp\testng-eclipse-1688884489\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="TC_01_Validate()[pri:0, instance:com.nopcommerce.payment.Level_13_DynamicPageElement@4f970963]" name="TC_01_Validate" duration-ms="4" started-at="2020-02-05T13:35:58Z" finished-at="2020-02-05T13:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Validate -->
+        <test-method status="SKIP" signature="TC_02_Register()[pri:0, instance:com.nopcommerce.payment.Level_13_DynamicPageElement@4f970963]" name="TC_02_Register" duration-ms="1" started-at="2020-02-05T13:35:58Z" finished-at="2020-02-05T13:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Register -->
+        <test-method status="SKIP" signature="TC_03_Login()[pri:0, instance:com.nopcommerce.payment.Level_13_DynamicPageElement@4f970963]" name="TC_03_Login" duration-ms="1" started-at="2020-02-05T13:35:58Z" finished-at="2020-02-05T13:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Login -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:com.nopcommerce.payment.Level_13_DynamicPageElement@4f970963]" name="quit" is-config="true" duration-ms="0" started-at="2020-02-05T13:35:58Z" finished-at="2020-02-05T13:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.nopcommerce.payment.Level_13_DynamicPageElement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

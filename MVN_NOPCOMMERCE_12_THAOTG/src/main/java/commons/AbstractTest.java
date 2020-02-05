@@ -69,7 +69,7 @@ public class AbstractTest {
 				
 				WebDriverManager.firefoxdriver().setup();
 				System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
-				System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, ".\\FileFoxlogs.txt");
+				System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "\\src\\main\\resources\\logFiles\\FileFoxlogs.txt");
 				FirefoxProfile profile = new FirefoxProfile();
 				File addBlockExt = new File(rootFolder +"\\browserExtension\\adblock.crx");
 				profile.addExtension(addBlockExt);
