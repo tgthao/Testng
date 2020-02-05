@@ -68,14 +68,14 @@ public class AbstractTest {
 			if (browserName.equalsIgnoreCase("firefox")) {
 				
 				WebDriverManager.firefoxdriver().setup();
-				System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
-				System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "\\src\\main\\resources\\logFiles\\FileFoxlogs.txt");
+				//System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+				//System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "\\src\\main\\resources\\logFiles\\FileFoxlogs.txt");
 				FirefoxProfile profile = new FirefoxProfile();
-				File addBlockExt = new File(rootFolder +"\\browserExtension\\adblock.crx");
-				profile.addExtension(addBlockExt);
+				//File addBlockExt = new File(rootFolder +"\\browserExtension\\adblock.crx");
+				//profile.addExtension(addBlockExt);
 				FirefoxOptions options = new FirefoxOptions();
 				options.addPreference("browser.download.folderList", 2);
-				options.addPreference("browser.download.dir", rootFolder+"\\downloadedFile");
+				//options.addPreference("browser.download.dir", rootFolder+"\\downloadedFile");
 				options.addPreference("browser.download.useDownloadDir", true);
 				options.addPreference("browser.helperApps.neverAsk.saveToDisk", "application/pdf");
 				options.setProfile(profile);
